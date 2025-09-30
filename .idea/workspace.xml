@@ -4,21 +4,41 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91f76c1b-de8f-4b90-ab0e-fe028773893a" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/code/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/background.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/class1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/class2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/class3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/enemy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/entity.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/entityFactory.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/game.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/interface1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/level.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/menu.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/player.py" afterDir="false" />
+    <list default="true" id="91f76c1b-de8f-4b90-ab0e-fe028773893a" name="Changes" comment="Creating main Loop&#10;Connecting Menu and Game classes">
+      <change afterPath="$PROJECT_DIR$/asset/Enemy1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Enemy1Shot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Enemy2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Enemy2Shot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Level1.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Level1Bg0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Level1Bg1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Level1Bg2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Level1Bg3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Level1Bg4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Level1Bg5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Level1Bg6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Level2.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Level2Bg0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Level2Bg1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Level2Bg2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Level2Bg3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Level2Bg4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Menu.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/MenuBg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Player1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Player1Shot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Player2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Player2Shot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Score.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/ScoreBg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/Const.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/Game.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/Menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Menu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/background.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Background.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/enemy.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Enemy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/level.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Level.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/player.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Player.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +67,9 @@
     &quot;accountId&quot;: &quot;da45bfed-b830-4279-afa9-42b892632386&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/code/Menu.py" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -63,6 +86,12 @@
     &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ednaldo\Documents\PROJETOS\MountainShooter\asset" />
+      <recent name="C:\Users\Ednaldo\Documents\PROJETOS\MountainShooter\code" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="MountainShooter" />
@@ -111,7 +140,23 @@
       <option name="project" value="LOCAL" />
       <updated>1758924313175</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Adding Classes generated from StarUML">
+      <option name="closed" value="true" />
+      <created>1759175638123</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1759175638123</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Creating main Loop&#10;Connecting Menu and Game classes">
+      <option name="closed" value="true" />
+      <created>1759179752413</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1759179752413</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -127,6 +172,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Adding Classes generated from StarUML" />
+    <MESSAGE value="Creating main Loop&#10;Connecting Menu and Game classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating main Loop&#10;Connecting Menu and Game classes" />
   </component>
 </project>
