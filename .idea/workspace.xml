@@ -4,41 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91f76c1b-de8f-4b90-ab0e-fe028773893a" name="Changes" comment="Creating main Loop&#10;Connecting Menu and Game classes">
-      <change afterPath="$PROJECT_DIR$/asset/Enemy1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Enemy1Shot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Enemy2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Enemy2Shot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Level1.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Level1Bg0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Level1Bg1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Level1Bg2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Level1Bg3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Level1Bg4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Level1Bg5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Level1Bg6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Level2.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Level2Bg0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Level2Bg1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Level2Bg2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Level2Bg3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Level2Bg4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Menu.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/MenuBg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Player1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Player1Shot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Player2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Player2Shot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Score.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/ScoreBg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/Const.py" afterDir="false" />
+    <list default="true" id="91f76c1b-de8f-4b90-ab0e-fe028773893a" name="Changes" comment="Creating asset folder&#10;Inserting all assets&#10;Creating the menu: background, sound and fonts&#10;Creating the const file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/Game.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Game.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/Menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Menu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/background.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Background.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/enemy.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Enemy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/level.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Level.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/player.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Player.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +20,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -79,13 +51,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "feature__level"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Ednaldo\Documents\PROJETOS\MountainShooter\asset" />
@@ -156,7 +128,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759179752413</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Creating asset folder&#10;Inserting all assets&#10;Creating the menu: background, sound and fonts&#10;Creating the const file">
+      <option name="closed" value="true" />
+      <created>1759256267816</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1759256267816</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -174,6 +154,7 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Adding Classes generated from StarUML" />
     <MESSAGE value="Creating main Loop&#10;Connecting Menu and Game classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating main Loop&#10;Connecting Menu and Game classes" />
+    <MESSAGE value="Creating asset folder&#10;Inserting all assets&#10;Creating the menu: background, sound and fonts&#10;Creating the const file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating asset folder&#10;Inserting all assets&#10;Creating the menu: background, sound and fonts&#10;Creating the const file" />
   </component>
 </project>
