@@ -4,8 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91f76c1b-de8f-4b90-ab0e-fe028773893a" name="Changes" comment="Creating asset folder&#10;Inserting all assets&#10;Creating the menu: background, sound and fonts&#10;Creating the const file">
+    <list default="true" id="91f76c1b-de8f-4b90-ab0e-fe028773893a" name="Changes" comment="Changing menu">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/Background.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Background.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/Const.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Const.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/Game.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/Level.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Level.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/Menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Menu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/entity.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Entity.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/entityFactory.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/EntityFactory.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,13 +58,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "feature__level"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature__level&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Ednaldo\Documents\PROJETOS\MountainShooter\asset" />
