@@ -11,6 +11,7 @@ from code.EntityFactory import EntityFactory
 from code.Entity import Entity
 from typing import List
 
+from code.EntityMediator import EntityMediator
 
 
 class Level:
@@ -51,6 +52,10 @@ class Level:
             self.level_text(14, f'entidades: {len(self.entity_list)}', COLOR_WHITE,
                             (10, WIN_HEIGHT - 20))  # mostra quantas entidades têm na tela
             pygame.display.flip()
+            # Collisions
+            EntityMediator.verify_collision(entity_list=self.entity_list)  # verifica colisão
+            EntityMediator.verify_health(entity_list=self.entity_list)  # verifica as vidas
+        pass
 
     def level_text(self, text_size: int, text: str, text_color: tuple, text_pos: tuple):
         text_font: Font = pygame.font.SysFont(name="Lucida Sans Typewriter", size=text_size)

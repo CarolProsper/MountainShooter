@@ -10,5 +10,4 @@ class Enemy(Entity):
 
     def move(self, ):
         self.rect.centerx -= ENTITY_SPEED[self.name]  # velocidade do movimento
-        if self.rect.right <= 0:  # qdo o canto direito da imagem de fundo chegar no canto esquerdo
-            self.rect.left = WIN_WIDTH
+

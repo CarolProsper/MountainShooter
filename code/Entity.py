@@ -4,6 +4,8 @@ from abc import ABC, abstractmethod
 
 import pygame
 
+from code.Const import ENTITY_HEALTH
+
 
 class Entity(ABC):  # classe abstrata
     def __init__(self, name: str, position: tuple):
@@ -12,6 +14,7 @@ class Entity(ABC):  # classe abstrata
         # Extensão convert_alpha trabalha de maneira otimizada o arquivo png.
         self.rect = self.surf.get_rect(left=position[0], top=position[1])  # faz o retângulo
         self.speed = 0
+        self.health = ENTITY_HEALTH[self.name]
 
     @abstractmethod  # decorator
     def move(self, ):
