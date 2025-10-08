@@ -10,7 +10,9 @@ C_GREEN = (1, 120, 0)
 C_CYAN = (0, 128, 128)
 
 # E
-EVENT_ENEMY = pygame.USEREVENT +1
+EVENT_ENEMY = pygame.USEREVENT +1  # evento de usuário
+
+EVENT_TIMEOUT = pygame.USEREVENT +2  # evento de usuário
 
 ENTITY_SPEED = {  # velocidades
     'Level1Bg0': 0,  # é a imagem de fundo com a lua, vamos deixar estática.
@@ -20,6 +22,11 @@ ENTITY_SPEED = {  # velocidades
     'Level1Bg4': 4,
     'Level1Bg5': 5,
     'Level1Bg6': 6,
+    'Level2Bg0': 0,
+    'Level2Bg1': 1,
+    'Level2Bg2': 2,
+    'Level2Bg3': 3,
+    'Level2Bg4': 4,
     'Player1': 3,  # velocidade do jogador
     'Player1Shot': 1,  # velocidade do tiro
     'Player2': 3,
@@ -106,9 +113,6 @@ ENTITY_SCORE = {  #
     'Enemy2Shot': 0,
 }
 
-# K
-
-
 # M
 MENU_OPTION = ('NEW GAME 1P',
                'NEW GAME 2P - COOPERATIVE',
@@ -130,6 +134,10 @@ PLAYER_KEY_SHOOT = {'Player1': pygame.K_RCTRL,  # tecla CTRL da direita
 
 # S
 SPAWN_TIME = 4000  # 4 segundos
+
+# T
+TIMEOUT_STEP = 100  # 100 MS
+TIMEOUT_LEVEL = 10000  # 20 SEGUNDOS
 
 # W
 WIN_WIDTH = 576

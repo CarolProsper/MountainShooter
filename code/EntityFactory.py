@@ -15,11 +15,19 @@ class EntityFactory:
         match entity_name:
             case 'Level1Bg':    # fizemos o background do Level1
                 list_bg = []    # fizemos o movimento do Parallax
-                for i in range(7):
+                for i in range(7):  # laço referente numero de imagens do level 1
                     # 7 imagens aparecem no inicio da tela
                     list_bg.append(Background(f'Level1Bg{i}', position := (0, 0)))
                     # as mesmas 7 imagens aparecem no fim da tela
                     list_bg.append(Background(f'Level1Bg{i}', position := (WIN_WIDTH, 0)))
+                return list_bg
+            case 'Level2Bg':    # fizemos o background do Level1
+                list_bg = []    # fizemos o movimento do Parallax
+                for i in range(5):  # laço referente numero de imagens do level 2
+                    # 7 imagens aparecem no inicio da tela
+                    list_bg.append(Background(f'Level2Bg{i}', position := (0, 0)))
+                    # as mesmas 7 imagens aparecem no fim da tela
+                    list_bg.append(Background(f'Level2Bg{i}', position := (WIN_WIDTH, 0)))
                 return list_bg
 
             case 'Player1':
