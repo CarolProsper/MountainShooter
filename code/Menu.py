@@ -4,7 +4,7 @@ import pygame
 from pygame import Surface, Rect
 from pygame.font import Font
 
-from code.Const import WIN_WIDTH, COLOR_ORANGE, MENU_OPTION, COLOR_WHITE, COLOR_YELLOW, COLOR_BLUE
+from code.Const import WIN_WIDTH, C_ORANGE, MENU_OPTION, C_WHITE, C_YELLOW, C_BLUE
 
 
 class Menu:
@@ -21,14 +21,14 @@ class Menu:
         while True:  # loop infinito onde carrega a imagem
             # DESENHAR AS IMAGENS
             self.window.blit(source=self.surf, dest=self.rect)  # vamos desenhar a imagem no retângulo
-            self.menu_text(text_size=60, text="Mountain", text_color= COLOR_BLUE, text_center_pos=((WIN_WIDTH/2), 70))  # escrevendo o nome do jogo
-            self.menu_text(text_size=60, text="Shooter", text_color= COLOR_BLUE, text_center_pos=((WIN_WIDTH / 2), 120)) # escrevendo o nome do jogo numa linha abaixo
+            self.menu_text(text_size=60, text="Mountain", text_color= C_BLUE, text_center_pos=((WIN_WIDTH / 2), 70))  # escrevendo o nome do jogo
+            self.menu_text(text_size=60, text="Shooter", text_color= C_BLUE, text_center_pos=((WIN_WIDTH / 2), 120)) # escrevendo o nome do jogo numa linha abaixo
 
             for i in range(len(MENU_OPTION)):
                 if i == menu_option:
-                    self.menu_text(text_size=30, text=MENU_OPTION[i], text_color=COLOR_YELLOW, text_center_pos=((WIN_WIDTH / 2), 200 + 25 * i))  # criando a cor de seleção do texto no menu
+                    self.menu_text(text_size=30, text=MENU_OPTION[i], text_color=C_YELLOW, text_center_pos=((WIN_WIDTH / 2), 200 + 25 * i))  # criando a cor de seleção do texto no menu
                 else:
-                    self.menu_text(text_size=30, text=MENU_OPTION[i], text_color=COLOR_WHITE, text_center_pos=((WIN_WIDTH / 2), 200 + 25 * i))  # escrevendo o texto do menu
+                    self.menu_text(text_size=30, text=MENU_OPTION[i], text_color=C_WHITE, text_center_pos=((WIN_WIDTH / 2), 200 + 25 * i))  # escrevendo o texto do menu
             pygame.display.flip()  # para atualizar a tela
 
             # CHECAR TODOS OS EVENTOS

@@ -4,7 +4,7 @@ from abc import ABC, abstractmethod
 
 import pygame
 
-from code.Const import ENTITY_HEALTH
+from code.Const import ENTITY_HEALTH, ENTITY_DAMAGE, ENTITY_SCORE
 
 
 class Entity(ABC):  # classe abstrata
@@ -15,6 +15,9 @@ class Entity(ABC):  # classe abstrata
         self.rect = self.surf.get_rect(left=position[0], top=position[1])  # faz o retângulo
         self.speed = 0
         self.health = ENTITY_HEALTH[self.name]
+        self.damage = ENTITY_DAMAGE[self.name]  # atributo de dano
+        self.score = ENTITY_SCORE[self.name]
+        self.last_dmg = 'None'
 
     @abstractmethod  # decorator
     def move(self, ):
