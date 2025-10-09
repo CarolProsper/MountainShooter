@@ -20,5 +20,5 @@ class Entity(ABC):  # classe abstrata
         self.last_dmg = 'None'
 
     @abstractmethod  # decorator
-    def move(self, ):
+    def move(self):
         pass

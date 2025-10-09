@@ -11,7 +11,7 @@ import random
 class EntityFactory:
 
     @staticmethod  # método estático
-    def get_entity(entity_name: str, position=(0, 0)):
+    def get_entity(entity_name: str):
         match entity_name:
             case 'Level1Bg':    # fizemos o background do Level1
                 list_bg = []    # fizemos o movimento do Parallax

@@ -32,11 +32,12 @@ class Level:
             player = (EntityFactory.get_entity('Player2'))  # inicializou jogador2
             player.score = player_score[1]
             self.entity_list.append(player)
-        pygame.time.set_timer(EVENT_ENEMY, SPAWN_TIME) # A CADA DETERMINADO TEMPO, VAMOS CRIAR UM INIMIGO
-        pygame.time.set_timer(EVENT_TIMEOUT, TIMEOUT_STEP) # A CADA 100 MS VAI CHECAR A CONDIÇÃO DE VITORIA
+        pygame.time.set_timer(EVENT_ENEMY, SPAWN_TIME)  # A CADA DETERMINADO TEMPO, VAMOS CRIAR UM INIMIGO
+        pygame.time.set_timer(EVENT_TIMEOUT, TIMEOUT_STEP)  # A CADA 100 MS VAI CHECAR A CONDIÇÃO DE VITORIA
 
     def run(self, player_score: List[int]):
         pygame.mixer_music.load(f'./asset/{self.name}.mp3')  # importando a música
+        pygame.mixer_music.set_volume(0.3)  # para dar uma diminuída no volume da música dos levels
         pygame.mixer_music.play(-1)
         clock = pygame.time.Clock()  # garante que essa função rode sempre num tempo específico.
         while True:

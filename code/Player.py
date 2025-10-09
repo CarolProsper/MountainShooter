@@ -13,15 +13,15 @@ class Player(Entity):
         super().__init__(name, position)
         self.shot_delay = ENTITY_SHOT_DELAY[self.name]  # atraso do tiro, para sair tiro em sequência
 
-    def move(self, ):  # movimento do jogador
+    def move(self):  # movimento do jogador
         pressed_key = pygame.key.get_pressed()  # quando a tecla estiver pressionada algo acontece:
         if pressed_key[PLAYER_KEY_UP[self.name]] and self.rect.top > 0:  # pressionar seta para cima, até topo
             self.rect.centery -= ENTITY_SPEED[self.name]  # vai subir
-        if pressed_key[PLAYER_KEY_DOWN[self.name]] and self.rect.bottom < WIN_HEIGHT: # pressionar seta baixo, até base
+        if pressed_key[PLAYER_KEY_DOWN[self.name]] and self.rect.bottom < WIN_HEIGHT:  # pressionar seta baixo, até base
             self.rect.centery += ENTITY_SPEED[self.name]  # vai descer
         if pressed_key[PLAYER_KEY_LEFT[self.name]] and self.rect.left > 0:  # pressionar seta para esquerda, até a base
             self.rect.centerx -= ENTITY_SPEED[self.name]  # vai para esquerda
-        if pressed_key[PLAYER_KEY_RIGHT[self.name]] and self.rect.right < WIN_WIDTH: # pressionar seta direita, até base
+        if pressed_key[PLAYER_KEY_RIGHT[self.name]] and self.rect.right < WIN_WIDTH:  # pressionar seta direita até base
             self.rect.centerx += ENTITY_SPEED[self.name]  # vai para direita
         pass
 
@@ -32,3 +32,7 @@ class Player(Entity):
             pressed_key = pygame.key.get_pressed()  # e atira.
             if pressed_key[PLAYER_KEY_SHOOT[self.name]]:
                 return PlayerShot(name=f'{self.name}Shot', position=(self.rect.centerx, self.rect.centery))
+            else:
+                return
+        else:
+            return

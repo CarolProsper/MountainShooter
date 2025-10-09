@@ -51,9 +51,9 @@ ENTITY_HEALTH = {  # vidas
     'Level2Bg2': 999,
     'Level2Bg3': 999,
     'Level2Bg4': 999,
-    'Player1': 300,
+    'Player1': 200,
     'Player1Shot': 1,
-    'Player2': 300,
+    'Player2': 200,
     'Player2Shot': 1,
     'Enemy1': 50,
     'Enemy1Shot': 1,
@@ -138,10 +138,10 @@ SPAWN_TIME = 4000  # 4 segundos
 
 # T
 TIMEOUT_STEP = 100  # 100 MS
-TIMEOUT_LEVEL = 20000  # 20 SEGUNDOS
+TIMEOUT_LEVEL = 30000  # 30 SEGUNDOS
 
 # W
-WIN_WIDTH = 576
+WIN_WIDTH = 576  # definição do tamanho da tela
 WIN_HEIGHT = 324
 
 # S

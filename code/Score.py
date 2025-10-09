@@ -5,7 +5,7 @@ import pygame
 from pygame import Surface, Rect, KEYDOWN, K_RETURN, K_BACKSPACE, K_ESCAPE
 from pygame.font import Font
 
-from code.Const import C_YELLOW, SCORE_POS, C_BLUE, MENU_OPTION, C_ORANGE, C_WHITE, C_RED
+from code.Const import C_YELLOW, SCORE_POS, C_BLUE, MENU_OPTION, C_WHITE, C_RED
 from code.DBProxy import DBProxy
 
 
@@ -24,16 +24,16 @@ class Score:
         while True:
             self.window.blit(source=self.surf, dest=self.rect)
             self.score_text(60, 'YOU WIN!', C_BLUE, SCORE_POS['Title'])
+            text = 'Enter Player 1 name (máx 5 characters):'
+            score = player_score[0]
             if game_mode == MENU_OPTION[0]:  # 1 player
                 score = player_score[0]
-                text = 'Enter Player name (máx 5 characters):'
             if game_mode == MENU_OPTION[1]:  # cooperativo
                 score = (player_score[0] + player_score[1]) / 2  # média da soma das duas pontuações
                 text = 'Enter Team name (máx 5 characters):'
             if game_mode == MENU_OPTION[2]:  # competitivo
                 if player_score[0] >= player_score[1]:
                     score = player_score[0]
-                    text = 'Enter Player 1 name (máx 5 characters):'
                 else:
                     score = player_score[1]
                     text = 'Enter Player 2 name (máx 5 characters):'

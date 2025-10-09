@@ -14,7 +14,7 @@ class Menu:
         self.rect = self.surf.get_rect(left=0, top=0)  # criando o retângulo para inserir a imagem
 
 
-    def run(self, ):
+    def run(self):
         menu_option = 0
         pygame.mixer_music.load('./asset/Menu.mp3')  # Carregando som no menu
         pygame.mixer_music.play(-1)  # com o -1 a música ficará tocando sem parar
