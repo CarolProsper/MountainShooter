@@ -65,15 +65,15 @@ class Level:
                     self.timeout -= TIMEOUT_STEP  # vai decrementando o tempo
                     if self.timeout == 0:  # até encerrar.
                         for ent in self.entity_list:
-                            if isinstance(ent, Player) and ent.name == 'Player1':  # se existir um player e for o player1...
+                            if isinstance(ent, Player) and ent.name == 'Player1':  # se existir 1 player e for o player1
                                 player_score[0] = ent.score
-                            if isinstance(ent, Player) and ent.name == 'Player2':  # se existir um player e for o player2...
+                            if isinstance(ent, Player) and ent.name == 'Player2':  # se existir 1 player e for o player2
                                 player_score[0] = ent.score
                         return True
 
                 found_player = False  # condição se jogador morrer
-                for ent in self.entity_list: # varre a lista de entidades
-                    if isinstance(ent, Player): # verifica se existe o player
+                for ent in self.entity_list:  # varre a lista de entidades
+                    if isinstance(ent, Player):  # verifica se existe o player
                         found_player = True  # se encontrar fica true
 
                 if not found_player:  # se não encontrar (morreu)

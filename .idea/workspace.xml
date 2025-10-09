@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91f76c1b-de8f-4b90-ab0e-fe028773893a" name="Changes" comment="Creating player shot&#10;Creating enemy shot">
+    <list default="true" id="91f76c1b-de8f-4b90-ab0e-fe028773893a" name="Changes" comment="Level 2 implementation">
+      <change afterPath="$PROJECT_DIR$/code/DBProxy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/Score.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/Const.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Const.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/Entity.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Entity.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/EntityMediator.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/EntityMediator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/Game.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Game.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/Level.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Level.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/Menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Menu.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +23,9 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="Git.Rebase.Settings">
+    <option name="NEW_BASE" value="feature_level" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -60,7 +63,7 @@
   &quot;keyToString&quot;: {
     &quot;Python.main.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature__level&quot;
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -181,7 +184,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759868484656</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Level 2 implementation">
+      <option name="closed" value="true" />
+      <created>1759960817345</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1759960817345</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -205,6 +216,7 @@
     <MESSAGE value="Creating Players and Enimies&#10;Moving Players and Enemies" />
     <MESSAGE value="Creating Mediator Pattern. Enemies Destruction." />
     <MESSAGE value="Creating player shot&#10;Creating enemy shot" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating player shot&#10;Creating enemy shot" />
+    <MESSAGE value="Level 2 implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Level 2 implementation" />
   </component>
 </project>
